@@ -5,6 +5,11 @@
 #titulo {
     color: rgb(2, 143, 236);
     text-align: center;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+.corpo {
+    background-color: black;
 }
 
 .entradas-formulario {
@@ -34,11 +39,12 @@
 
 .rodape {
     border: 1px dotted;
-    color: brown;
+    color: rgb(2, 143, 236);
     position: fixed;
     bottom: 0;
     width: 100%;
     padding-top: 10px;
     padding-bottom: 10px;
     text-align: center;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
