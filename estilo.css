@@ -1,10 +1,41 @@
-#titulo{
+*{
+    margin: 0px;
+}
+
+#titulo {
+    color: red;
     text-align: center;
-    color: rgb(40, 151, 241);
 }
-.entradas-formulario{
-    border: 1px solid;
+
+.entradas-formulario {
+    border: 3px solid;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+    margin-left: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    gap: 10px;
 }
-.rodape{
-    border: 1px solid;
+
+
+
+.butao-ok {
+    height: 25px;
+    border: 3px solid green;
+}
+
+
+.rodape {
+    border: 1px dotted;
+    color: brown;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
 }
